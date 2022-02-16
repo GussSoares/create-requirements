@@ -1,0 +1,7 @@
+-   id: create-requirements
+    name: create-requirements
+    entry: poetry
+    args: [export, --format, requirements.txt, --output, requirements.txt, --without-hashes]
+    language: system
+    pass_filenames: false
+    require_serial: true
